@@ -1,6 +1,5 @@
 # This file is used to ignore files which are generated
 
-*~
 *.autosave
 *.a
 *.core
@@ -55,4 +54,6 @@ Thumbs.db
 # --------
 *.dll
 *.exe
+qt5-browser
+
 
