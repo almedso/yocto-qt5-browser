@@ -4,6 +4,7 @@
 
 int main(int argc, char *argv[])
 {
+    // safely set the environment variable to support virtual keyboard
     qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
 
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
