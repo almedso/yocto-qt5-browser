@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
     QWebEngineView view;
     view.setUrl(commandLineUrlArgument());
-    view.resize(800, 480);
+    view.resize(480, 800);
     view.show();
 
     return app.exec();
